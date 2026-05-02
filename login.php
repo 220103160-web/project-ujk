@@ -2,6 +2,11 @@
 session_start();
 include "koneksi.php";
 
+if (isset($_SESSION['login'])) {
+    header("Location: dashboard.php");
+    exit;
+}
+
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
