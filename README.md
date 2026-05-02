@@ -15,3 +15,7 @@ Aplikasi ini digunakan untuk mengelola data barang dengan fitur login dan CRUD.
 - PHP Native
 - MySQL
 - Bootstrap
+
+## Akun
+username : admin
+password : 123456
